@@ -1,0 +1,41 @@
+@import "_custom";
+
+
+// Global style rules 
+$primary: green;
+
+
+// Header Nav
+.menu {
+    
+    background-color: $primary;
+
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: white;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
+
+.form-box {
+    padding: 5rem;
+}
+
+.hero {
+    padding: 5rem;
+}
+
+.how-it-works {
+    padding: 5rem;
+}
+
+
+
+// FOOTER CONTENT
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
